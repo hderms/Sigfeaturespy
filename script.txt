@@ -1,0 +1,5 @@
+load --filename=test.csv
+run
+box_plot --group1=vv --group2=dd --group3=bb
+pca --axis1=1 --axis2=2 --axis3=3 --color1=green --color2=red --color3=blue --low=10 --high=200 --increment=10
+kmeans --groups=3

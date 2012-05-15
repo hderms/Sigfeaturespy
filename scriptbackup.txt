@@ -1,0 +1,6 @@
+load --filename=derp2.csv
+run
+   box_plot --group1=vv --group2=dd
+pca --axis1=1 --axis2=2 --color1=red --color2=green --low=10 --high=200 --increment=10
+pca --axis1=1 --axis2=2 --axis3=3 --color1=red --color2=green --low=10 --high=200 --increment=10
+kmeans --groups=3
