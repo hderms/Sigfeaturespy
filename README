@@ -1,0 +1,5 @@
+Initialize the program by executing the sole python file in the directory.
+Script parses line by line through a file in the same directory called script.txt, interpreting the commands in a limited fashion. 
+Generates a folder with the resultin files in it, corresponding with the analysis performed in script.txt.
+
+Software is provided as is. There are numerous dependencies, but no attempt has been made to catalogue them, as this was an unfunded amateur project from years ago. 
